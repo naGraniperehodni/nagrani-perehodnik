@@ -1,0 +1,93 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telegram Shops</title>
+
+<style>
+*{box-sizing:border-box;}
+body{
+margin:0;
+font-family:Arial, sans-serif;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+/* Нижче налаштовано задній фон (картинка + затемнення) */
+background:
+linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)),
+url("https://images.unsplash.com/photo-1542751371-adc38448a05e");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.container{
+text-align:center;
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(6px);
+background:rgba(0,0,0,0.55);
+width:320px;
+box-shadow:0 0 25px rgba(0,0,0,0.6);
+}
+
+h1{
+margin-bottom:10px;
+letter-spacing:3px;
+font-size:28px;
+}
+
+.subtitle{
+font-size:14px;
+opacity:0.8;
+margin-bottom:30px;
+}
+
+.btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+margin:14px 0;
+padding:14px;
+border-radius:14px;
+text-decoration:none;
+color:white;
+font-size:17px;
+background:linear-gradient(90deg,#ff7a00,#ff2f00);
+transition:transform .25s, box-shadow .25s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+box-shadow:0 0 18px rgba(255,120,0,0.9);
+}
+
+.footer{
+margin-top:25px;
+font-size:12px;
+opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>TELEGRAM</h1>
+<div class="subtitle">Metro Royale • UC</div>
+
+<a class="btn" href="https://t.me/naGranishop">📢 metro shop</a>
+<a class="btn" href="https://t.me/naGraniucshop">💰 UC shop</a>
+
+<div class="footer">
+© Telegram Shops
+</div>
+
+</div>
+
+</body>
+</html>
